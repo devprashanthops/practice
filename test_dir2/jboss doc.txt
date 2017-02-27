@@ -1,0 +1,36 @@
+4.1. Download and Installation
+
+    [user@localhost]$ cd /opt
+    [user@localhost]$ tar -xvf jboss-5.1.0.GA-jdk6.gz
+
+After tar you can see jboss-5.1.0.GA
+
+$cd /opt/jboss-5.1.0.GA/bin
+
+vi run.conf
+
+set java home path in line no 29 and 35 like
+
+rem set "JAVA_HOME=C:\Program Files\Java\jdk1.6.0_30"
+
+rem set "JAVA=C:\Program Files\Java\jdk1.6.0_30\bin\java"
+
+and save it
+
+go to $JBOSS_HOME\server\all\conf\bootstrap
+
+vi profile
+
+Add this parameter class="java.io.File
+
+185---   <constructor><parameter class="java.io.File"><inject bean="BootstrapProfileFactory" property="attachmentStoreRoot" /></parameter></constructor>
+
+
+go to JBOSS_HOME\server\all\deploy\jbossweb.sar
+
+vi server.xml
+
+edit
+
+
+

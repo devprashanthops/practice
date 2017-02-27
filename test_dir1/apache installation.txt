@@ -1,0 +1,9 @@
+./configure -with-apxs=/appbin/alm/hp/apache2224/bin/apxs  --enable-EAPI
+
+
+./configure -with-apxs=/appbin/alm/hp-apche-2224/bin/apxs  --enable-EAPI
+
+
+
+/appbin/alm/hp-apche-2224/bin/apxs
+

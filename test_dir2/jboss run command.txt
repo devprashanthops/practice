@@ -1,0 +1,11 @@
+run.bat -c node1 DefaultPartition -Djboss.messaging.ServerPeerID=1 -Djboss.service.binding.set=ports-default
+
+run.bat -c node2 DefaultPartition -Djboss.messaging.ServerPeerID=1 -Djboss.service.binding.set=ports-01
+
+run.bat -c node2 -Djboss.messaging.ServerPeerID=1 -Djboss.service.binding.set=ports-01
+
+
+
+DefaultPartition
+
+/run.sh -g QAPartition -b 192.168.1.100 -c all

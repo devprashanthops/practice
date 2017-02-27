@@ -1,0 +1,38 @@
+
+
+#ALM URLS
+http://alm-qa.app.syfbank.com:8080
+
+http://alm-da.app.syfbank.com
+
+
+ALM DEV SERVER DETAILS
+
+#WEB
+
+vdlalmftuwbda01.cpu.syfbank.com  10.70.0.39
+
+#APP
+
+vdlalmftuapda01.cpu.syfbank.com 10.68.16.157
+vdlalmftuapda02.cpu.syfbank.com 10.70.16.133
+
+
+
+ALM PROD SERVER DETAILS
+
+#WEB
+
+vplalmftuwbda01.cpu.syfbank.com 10.68.0.69
+vplalmftuwbda02.cpu.syfbank.com 10.68.0.70
+
+#APP
+
+vplalmftuapda01.cpu.syfbank.com 10.68.16.157
+vplalmftuapda02.cpu.syfbank.com 10.68.16.158
+
+
+
+
+
+
